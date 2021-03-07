@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllissuesPage Snapshot renders correctly 1`] = `
+<AllIssuesPage>
+  <h1>
+    Issue List
+  </h1>
+  <IssuesList
+    Issues={
+      Array [
+        Object {
+          "id": "1",
+          "issueDescription": "On clicking Delete, the application crashes.",
+          "severity": "Critical",
+          "status": "Open",
+        },
+        Object {
+          "id": "2",
+          "issueDescription": "The heading Add is wrongly displayed as Edit.",
+          "severity": "Minor",
+          "status": "Closed",
+        },
+        Object {
+          "id": "3",
+          "issueDescription": "The payment functionality is missing.",
+          "severity": "Major",
+          "status": "In Progress",
+        },
+      ]
+    }
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            Issue Description
+          </th>
+          <th>
+            Severity
+          </th>
+          <th>
+            Status
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <Issue
+          id="1"
+          issueDescription="On clicking Delete, the application crashes."
+          key="1"
+          severity="Critical"
+          status="Open"
+        >
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              On clicking Delete, the application crashes.
+            </td>
+            <td>
+              Critical
+            </td>
+            <td>
+              Open
+            </td>
+          </tr>
+        </Issue>
+        <Issue
+          id="2"
+          issueDescription="The heading Add is wrongly displayed as Edit."
+          key="2"
+          severity="Minor"
+          status="Closed"
+        >
+          <tr>
+            <td>
+              2
+            </td>
+            <td>
+              The heading Add is wrongly displayed as Edit.
+            </td>
+            <td>
+              Minor
+            </td>
+            <td>
+              Closed
+            </td>
+          </tr>
+        </Issue>
+        <Issue
+          id="3"
+          issueDescription="The payment functionality is missing."
+          key="3"
+          severity="Major"
+          status="In Progress"
+        >
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              The payment functionality is missing.
+            </td>
+            <td>
+              Major
+            </td>
+            <td>
+              In Progress
+            </td>
+          </tr>
+        </Issue>
+      </tbody>
+    </table>
+  </IssuesList>
+</AllIssuesPage>
+`;
